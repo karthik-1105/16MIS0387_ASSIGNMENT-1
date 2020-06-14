@@ -1,0 +1,10 @@
+First when user has login into our system then we have to save his login information like his id, login time into our login details database.
+When login into our system by entering correct login details we can update his last activity table column data with current time stamp.
+After storing user login information in table and generate one unique login id and store and update time stamp data on every three second we have use Ajax with JQuery. For update last activity data we have make one jquery function and in that function we have use Ajax request which send request to server for update login user last activity data and by using JQuery setInterval method we have called this function on every three seconds. So this way we have update login user last activity data with current time stamp data
+
+
+
+
+GETTING ONLINE USERS FROM DATABASE:
+
+we have update that login used login details every three seconds, now we have move to master user login. This master user can view who is currently logged into our website.we have use Ajax request which send request to PHP server script for fetch data from login details table and here we have condition like it fetch only that data whose last activity table column data is current time stamp data minus five second. That means it only fetch that user data whose last activity time stamp data less than of current time stamp minus five. So this query will return only that user data who currently online with our system or use our system. After fetching this data we have use setInterval() method, by using this method we have called this jquery function on every three second. So on every three second it will display live online user data on web page.
