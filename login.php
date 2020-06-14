@@ -110,6 +110,10 @@ body {
       </div>
      </form>
     </div>
+    
+    <H4><div align="center"><p style="color:red;">Login as 'master' user type to view online users</p></div></H4>
+   <H4><div align="center"><p style="color:red;">History of the users can be viewed by everyone</p></div></H4>
+
     <h3><b><u><div align="right">
     <a href="register.php">NEW REGISTRATION</a>
    </div></b></u></h3>
